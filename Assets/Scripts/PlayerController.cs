@@ -7,20 +7,21 @@ public class PlayerController : MonoBehaviour
 
     //player input movement
     SpriteRenderer playerSpriteRenderer;
-    CharacterController characterController;
+    Rigidbody2D characterRb;
+    InputActionAsset inputActions;
+
     InputAction moveAction;
+    InputAction attackAction;
 
     //player animation
     Animator playerAnimator;
-
-
     void Start()
     {
-        Cursor.visible = false; //∏∂øÏΩ∫ ƒøº≠ ≤˚
+        Cursor.visible = false; //ÎßàÏö∞Ïä§ Ïª§ÏÑú ÎÅî
 
-        InputActionAsset inputActions=GetComponent<PlayerInput>().actions;
+        inputActions = GetComponent<PlayerInput>().actions;
 
-        characterController= GetComponent<CharacterController>();
+        characterRb = GetComponent<Rigidbody2D>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
 
@@ -29,11 +30,23 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Vector2 moveVector=moveAction.ReadValue<Vector2>();
-        //player flip by x axiz movement
-
+        HandleAnimation();
+        HandleBullet();             
+    }
+    private void FixedUpdate()
+    {
+        Vector2 moveVector = moveAction.ReadValue<Vector2>();
+        if (moveVector.magnitude > 1)
+        {
+            moveVector.Normalize();
+        }
+        characterRb.linearVelocity = moveVector * walkingSpeed;
+    }
+    void HandleAnimation()
+    {
+        Vector2 moveVector = moveAction.ReadValue<Vector2>();
         if (moveVector.x > 0) playerSpriteRenderer.flipX = false;
-        else if(moveVector.x < 0) playerSpriteRenderer.flipX = true;
+        else if (moveVector.x < 0) playerSpriteRenderer.flipX = true;
 
         if (Mathf.Abs(moveVector.x) > 0 || Mathf.Abs(moveVector.y) > 0)
         {
@@ -43,13 +56,41 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimator.SetTrigger("Idle");
         }
+    }
 
-        if (moveVector.magnitude > 1)
+    void HandleBullet()
+    {
+
+        Vector2 bulletVector2 = new Vector2();
+
+        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
         {
-            moveVector.Normalize();
+            Debug.Log("Up");
+            bulletVector2 = new Vector2(0, 10);
         }
-        moveVector = moveVector * walkingSpeed * Time.deltaTime;
-        moveVector = transform.TransformDirection(moveVector);
-        characterController.Move(moveVector);
+        else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+        {
+            bulletVector2 = new Vector2(0, -10);
+            Debug.Log("Down");
+        }
+        else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        {
+            bulletVector2 = new Vector2(10, 0);
+            Debug.Log("Right");
+        }
+        else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+        {
+            bulletVector2 = new Vector2(-10, 0);
+            Debug.Log("Left");
+        }
+
+        //GameObject bullet = GameManager.Instance.bulletPool.GetObject();
+        //bullet.transform.position = transform.position;
+        //bullet.GetComponent<Bullet>().Velocity = bulletVector2;
+
+    }
+    void OnAttack(InputValue value)
+    {
+        Debug.Log("Attack value : " + value.Get<Vector2>());
     }
 }

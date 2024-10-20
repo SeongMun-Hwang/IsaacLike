@@ -9,7 +9,7 @@ public class BulletPool : MonoBehaviour
 
     List<GameObject> bulletPool;
 
-    private void Start()
+    private void Awake()
     {
         bulletPool = new List<GameObject>();
         for(int i=0;i<initialBulletNumber; i++)
