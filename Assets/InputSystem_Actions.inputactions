@@ -210,48 +210,59 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "49bbf635-fffa-40b7-8326-f663d34d11ce",
+                    "name": "2D Vector",
+                    "id": "9a5013cd-2a08-438f-b8a9-ddf4a97ed4c5",
+                    "path": "2DVector",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "35f8186d-8000-467e-9ad0-c4e12c48709d",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Attack",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "a4b31f1e-bb52-4621-b917-1f6e78d4b7b0",
+                    "name": "down",
+                    "id": "6ab40a10-a8eb-42b8-833b-a2db9482ea97",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Attack",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "1a446541-dac1-46c0-a048-3d116e11ea13",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "98816a64-3cc6-47bd-9f3e-6a1a584bbc9b",
+                    "name": "left",
+                    "id": "cee0a02e-82d3-4499-bb4c-804c91ef4999",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Attack",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a1b527c9-39aa-4b23-b2cc-09cbe08b10c8",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",

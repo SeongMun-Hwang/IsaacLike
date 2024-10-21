@@ -2749,6 +2749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkingSpeed: 7
+  bulletPool: {fileID: 1974543874}
 --- !u!50 &1098904957
 Rigidbody2D:
   serializedVersion: 5

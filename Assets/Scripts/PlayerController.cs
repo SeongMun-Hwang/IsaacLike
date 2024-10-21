@@ -1,5 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.Rendering.DebugUI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class PlayerController : MonoBehaviour
 
     InputAction moveAction;
     InputAction attackAction;
+
+    public BulletPool bulletPool;
 
     //player animation
     Animator playerAnimator;
@@ -26,12 +30,12 @@ public class PlayerController : MonoBehaviour
         playerAnimator = GetComponent<Animator>();
 
         moveAction = inputActions.FindAction("Move");
+        attackAction = inputActions.FindAction("Attack");
     }
 
     void Update()
     {
         HandleAnimation();
-        HandleBullet();             
     }
     private void FixedUpdate()
     {
@@ -45,7 +49,7 @@ public class PlayerController : MonoBehaviour
     void HandleAnimation()
     {
         Vector2 moveVector = moveAction.ReadValue<Vector2>();
-        if (moveVector.x > 0) transform.eulerAngles=new Vector3(0,0,0);
+        if (moveVector.x > 0) transform.eulerAngles = new Vector3(0, 0, 0);
         else if (moveVector.x < 0) transform.eulerAngles = new Vector3(0, 180, 0);
 
         if (Mathf.Abs(moveVector.x) > 0 || Mathf.Abs(moveVector.y) > 0)
@@ -58,39 +62,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void HandleBullet()
+    void HandleAttack(Vector2 inputVector)
     {
+        Vector2 attackVector=attackAction.ReadValue<Vector2>();
+        Debug.Log("attack vector : " + attackVector.x +" "+attackVector.y);
 
-        Vector2 bulletVector2 = new Vector2();
-
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
-        {
-            Debug.Log("Up");
-            bulletVector2 = new Vector2(0, 10);
-        }
-        else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-        {
-            bulletVector2 = new Vector2(0, -10);
-            Debug.Log("Down");
-        }
-        else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-        {
-            bulletVector2 = new Vector2(10, 0);
-            Debug.Log("Right");
-        }
-        else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-        {
-            bulletVector2 = new Vector2(-10, 0);
-            Debug.Log("Left");
-        }
-
-        //GameObject bullet = GameManager.Instance.bulletPool.GetObject();
-        //bullet.transform.position = transform.position;
-        //bullet.GetComponent<Bullet>().Velocity = bulletVector2;
-
+        GameObject bullet = bulletPool.GetObject();
+        bullet.transform.position = transform.position;
+        bullet.GetComponent<Bullet>().Velocity *= attackVector;
     }
+
     void OnAttack(InputValue value)
     {
-        Debug.Log("Attack value : " + value.Get<Vector2>());
+        Vector2 attackVector=value.Get<Vector2>();
+        HandleAttack(attackVector);
     }
 }
