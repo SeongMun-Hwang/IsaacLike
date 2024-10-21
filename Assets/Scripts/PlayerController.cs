@@ -45,8 +45,8 @@ public class PlayerController : MonoBehaviour
     void HandleAnimation()
     {
         Vector2 moveVector = moveAction.ReadValue<Vector2>();
-        if (moveVector.x > 0) playerSpriteRenderer.flipX = false;
-        else if (moveVector.x < 0) playerSpriteRenderer.flipX = true;
+        if (moveVector.x > 0) transform.eulerAngles=new Vector3(0,0,0);
+        else if (moveVector.x < 0) transform.eulerAngles = new Vector3(0, 180, 0);
 
         if (Mathf.Abs(moveVector.x) > 0 || Mathf.Abs(moveVector.y) > 0)
         {
