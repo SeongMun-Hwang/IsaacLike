@@ -25,7 +25,6 @@ public class Bullet : MonoBehaviour
     }
     public void DisableThis()
     {
-        Velocity = new Vector2(10, 10);
         gameObject.SetActive(false);
     }
 }

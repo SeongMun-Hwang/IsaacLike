@@ -39,13 +39,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         HandleAnimation();
-
-        if (canAttack)
-        {
-            HandleAttack();
-            canAttack = false;
-            Invoke("ResetAttackDelay", attackDelay);
-        }
+        HandleAttack();
     }
     private void FixedUpdate()
     {
@@ -75,13 +69,19 @@ public class PlayerController : MonoBehaviour
 
     void HandleAttack()
     {
-        Vector2 attackVector = attackAction.ReadValue<Vector2>();
+        if (!canAttack) return;
 
+        Vector2 attackVector = attackAction.ReadValue<Vector2>();
         if (Mathf.Abs(attackVector.x) > 0 || Mathf.Abs(attackVector.y) > 0)
         {
             GameObject bullet = bulletPool.GetObject();
             bullet.transform.position = transform.position;
-            bullet.GetComponent<Bullet>().Velocity = new Vector2(10, 10) * attackVector;
+
+            float angle = Mathf.Atan2(attackVector.y, attackVector.x) * Mathf.Rad2Deg;
+            bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+            canAttack = false;
+            Invoke("ResetAttackDelay", attackDelay);
         }
     }
     void ResetAttackDelay()
