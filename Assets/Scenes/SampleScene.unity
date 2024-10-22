@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 649687739}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2750,6 +2750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkingSpeed: 7
   bulletPool: {fileID: 1974543874}
+  attackDelay: 0.5
 --- !u!50 &1098904957
 Rigidbody2D:
   serializedVersion: 5
@@ -2811,9 +2812,9 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.037665218, y: -0.019070562}
-  m_Size: {x: 0.10467004, y: 0.15433848}
-  m_Direction: 0
+  m_Offset: {x: 0.037665214, y: -0.08083698}
+  m_Size: {x: 0.10467091, y: 0.030806547}
+  m_Direction: 1
 --- !u!4 &1104517260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7947911505737750448, guid: c5bdca1933fde624698bb8c6d6daa44b, type: 3}

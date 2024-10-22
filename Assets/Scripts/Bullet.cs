@@ -15,4 +15,17 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Velocity * Time.deltaTime);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("bullet trigger with : "+collision.gameObject.tag);
+        if (collision.CompareTag("Wall"))
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("Disable");
+        }
+    }
+    public void DisableThis()
+    {
+        Velocity = new Vector2(10, 10);
+        gameObject.SetActive(false);
+    }
 }

@@ -21,17 +21,14 @@ public class BulletPool : MonoBehaviour
     }
     public GameObject GetObject()
     {
-        Debug.Log("GetObject()");
         foreach(GameObject go in bulletPool)
         {
             if (!go.activeSelf)
             {
-                Debug.Log("Use existing bulelt");
                 go.SetActive(true);
                 return go;
             }
         }
-        Debug.Log("Create New Bullet");
         GameObject bullet = Instantiate(bulletPrefab, transform);
         bulletPool.Add(bullet);
         return bullet;

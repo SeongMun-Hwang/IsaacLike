@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
 
     public BulletPool bulletPool;
 
+    public float attackDelay = 0.5f;
+    bool canAttack = true;
+
     //player animation
     Animator playerAnimator;
     void Start()
@@ -36,6 +39,13 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         HandleAnimation();
+
+        if (canAttack)
+        {
+            HandleAttack();
+            canAttack = false;
+            Invoke("ResetAttackDelay", attackDelay);
+        }
     }
     private void FixedUpdate()
     {
@@ -45,6 +55,7 @@ public class PlayerController : MonoBehaviour
             moveVector.Normalize();
         }
         characterRb.linearVelocity = moveVector * walkingSpeed;
+
     }
     void HandleAnimation()
     {
@@ -62,19 +73,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void HandleAttack(Vector2 inputVector)
+    void HandleAttack()
     {
-        Vector2 attackVector=attackAction.ReadValue<Vector2>();
-        Debug.Log("attack vector : " + attackVector.x +" "+attackVector.y);
+        Vector2 attackVector = attackAction.ReadValue<Vector2>();
 
-        GameObject bullet = bulletPool.GetObject();
-        bullet.transform.position = transform.position;
-        bullet.GetComponent<Bullet>().Velocity *= attackVector;
+        if (Mathf.Abs(attackVector.x) > 0 || Mathf.Abs(attackVector.y) > 0)
+        {
+            GameObject bullet = bulletPool.GetObject();
+            bullet.transform.position = transform.position;
+            bullet.GetComponent<Bullet>().Velocity = new Vector2(10, 10) * attackVector;
+        }
     }
-
-    void OnAttack(InputValue value)
+    void ResetAttackDelay()
     {
-        Vector2 attackVector=value.Get<Vector2>();
-        HandleAttack(attackVector);
+        canAttack = true;
     }
 }
