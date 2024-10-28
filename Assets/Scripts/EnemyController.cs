@@ -8,9 +8,12 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
-
+        agent=GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
     private void Update()
     {
+        agent.destination = GameObject.FindWithTag("Player").transform.position;
     }
 }
