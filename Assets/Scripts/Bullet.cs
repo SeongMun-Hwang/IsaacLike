@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
         }
         if (!collision.CompareTag("Untagged")&&!collision.CompareTag("Player"))
         {
-            DisableThis();
+            gameObject.GetComponent<Animator>().SetTrigger("Disable");
         }
     }
     public void DisableThis()

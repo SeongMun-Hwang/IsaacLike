@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public float attackDuration = 3f;
 
     public int statAttack = 5;
+    public float attackDistance = 10f;
     enum State
     {
         Idle,
@@ -34,17 +35,23 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         GameObject player = GameObject.FindWithTag("Player");
+        float distance = 0f;
         if (player != null)
         {
             agent.destination = player.transform.position;
+            distance = (player.transform.position - gameObject.transform.position).magnitude;
         }
         if (state != State.Death)
         {
-            currentStateTime -= Time.deltaTime;
-            if (currentStateTime < 0 && enemyBullet != null)
+            if (enemyBullet != null)
             {
-                EnemyAttack();
+                currentStateTime -= Time.deltaTime;
+                if (currentStateTime < 0 && distance < attackDistance)
+                {
+                    EnemyAttack();
+                }
             }
+            
             int hp = gameObject.GetComponent<HpController>().Hp;
             if (hp < 1)
             {

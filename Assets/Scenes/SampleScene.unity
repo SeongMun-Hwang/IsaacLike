@@ -7365,13 +7365,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3213521412916943433, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3213521412916943433, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3213521412916943433, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3446963497711248026, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
       propertyPath: m_Name
       value: Demon
       objectReference: {fileID: 0}
-    - target: {fileID: 3446963497711248026, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 5530812138759265060, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
+      propertyPath: attackDistance
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 7195350205674929049, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
       propertyPath: m_LocalPosition.x
