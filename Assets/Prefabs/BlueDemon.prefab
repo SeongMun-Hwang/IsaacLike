@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1535002371971555921}
   - component: {fileID: 8334837207049025818}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: BlueDemon
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,12 +82,12 @@ SpriteRenderer:
   m_SortingLayerID: 27575909
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 815424164945274260, guid: a7a7c024f267ce248bfdaced4f51e8ad, type: 3}
+  m_Sprite: {fileID: 6653509105201523578, guid: fdb418ebd1ada99448161d03f7f75efd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8, y: 0.59}
+  m_Size: {x: 0.77, y: 0.61}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,10 +105,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634883d7befe42c4baa954f6d7746882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyBullet: {fileID: 4496849784262339397, guid: 3bf3b5ab98a8cc240ba7705de1eaef65, type: 3}
+  enemyBullet: {fileID: 0}
   currentStateTime: 0
   attackDuration: 3
   statAttack: 1
+  attackDistance: 10
 --- !u!114 &74249299197963735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +133,7 @@ Animator:
   m_GameObject: {fileID: 3446963497711248026}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 929dc7a348c7aa548b598c2e5af123e8, type: 2}
+  m_Controller: {fileID: 9100000, guid: d655f5cca5901f849a7060c02bc091b4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9507393a316731c4599c2acacd9dc848
+guid: fdb418ebd1ada99448161d03f7f75efd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6772775923325811741
-    second: FLYING_0
+      213: 6653509105201523578
+    second: IDLE 1-Photoroom_0
   - first:
-      213: 5941632107932350943
-    second: FLYING_1
+      213: 2147271813788742457
+    second: IDLE 1-Photoroom_1
   - first:
-      213: -2846053855543560624
-    second: FLYING_2
+      213: 4365603899134465715
+    second: IDLE 1-Photoroom_2
   - first:
-      213: -6678637041112908962
-    second: FLYING_3
+      213: -3966269506245718962
+    second: IDLE 1-Photoroom_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FLYING_0
+      name: IDLE 1-Photoroom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 5
-        width: 78
-        height: 59
+        width: 77
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1c372d81dbbdfd50800000000000000
-      internalID: 6772775923325811741
+      spriteID: a7b2d558743065c50800000000000000
+      internalID: 6653509105201523578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FLYING_1
+      name: IDLE 1-Photoroom_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 1
+        x: 83
+        y: 2
         width: 64
-        height: 66
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,18 +172,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd9fc5b0ceae47250800000000000000
-      internalID: 5941632107932350943
+      spriteID: 93336118654accd10800000000000000
+      internalID: 2147271813788742457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FLYING_2
+      name: IDLE 1-Photoroom_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 5
+        x: 161
+        y: 6
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b658f5cd9db59c30800000000000000
+      internalID: 4365603899134465715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE 1-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 6
         width: 68
         height: 61
       alignment: 0
@@ -194,30 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 056f1b0f819c088d0800000000000000
-      internalID: -2846053855543560624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FLYING_3
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 5
-        width: 67
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5bf2bcfef6b053a0800000000000000
-      internalID: -6678637041112908962
+      spriteID: e4c82c4f5eaf4f8c0800000000000000
+      internalID: -3966269506245718962
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FLYING_0: 6772775923325811741
-      FLYING_1: 5941632107932350943
-      FLYING_2: -2846053855543560624
-      FLYING_3: -6678637041112908962
+      IDLE 1-Photoroom_0: 6653509105201523578
+      IDLE 1-Photoroom_1: 2147271813788742457
+      IDLE 1-Photoroom_2: 4365603899134465715
+      IDLE 1-Photoroom_3: -3966269506245718962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

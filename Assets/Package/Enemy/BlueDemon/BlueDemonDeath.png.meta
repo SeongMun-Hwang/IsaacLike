@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 6659162e7f344484e997797c9391cf2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1836585436496604291
+    second: DEATH_1-removebg-preview_0
+  - first:
+      213: -2923395603581951767
+    second: DEATH_1-removebg-preview_1
+  - first:
+      213: -227074514965763677
+    second: DEATH_1-removebg-preview_2
+  - first:
+      213: 3789413552740688679
+    second: DEATH_1-removebg-preview_3
+  - first:
+      213: -1190788902258333359
+    second: DEATH_1-removebg-preview_4
+  - first:
+      213: 8486628742457280003
+    second: DEATH_1-removebg-preview_5
+  - first:
+      213: 8005940569589352241
+    second: DEATH_1-removebg-preview_6
+  - first:
+      213: 5690393420908475705
+    second: DEATH_1-removebg-preview_7
+  - first:
+      213: -8513539176967199898
+    second: DEATH_1-removebg-preview_8
+  - first:
+      213: 4900704864334107053
+    second: DEATH_1-removebg-preview_9
+  - first:
+      213: 4414845209838395203
+    second: DEATH_1-removebg-preview_10
+  - first:
+      213: 6459796130272425333
+    second: DEATH_1-removebg-preview_11
+  - first:
+      213: 4437976960887597666
+    second: DEATH_1-removebg-preview_12
+  - first:
+      213: -7794794613504480954
+    second: DEATH_1-removebg-preview_13
+  - first:
+      213: -5096616522900904412
+    second: DEATH_1-removebg-preview_14
+  - first:
+      213: 7580483665038763097
+    second: DEATH_1-removebg-preview_15
+  - first:
+      213: -8675122824461339872
+    second: DEATH_1-removebg-preview_16
+  - first:
+      213: 3451132976000953950
+    second: DEATH_1-removebg-preview_17
+  - first:
+      213: -3789926666055873555
+    second: DEATH_1-removebg-preview_18
+  - first:
+      213: -8411902273644388678
+    second: DEATH_1-removebg-preview_19
+  - first:
+      213: 2326383507027600216
+    second: DEATH_1-removebg-preview_20
+  - first:
+      213: 6570510358686594057
+    second: DEATH_1-removebg-preview_21
+  - first:
+      213: -6496047903230372494
+    second: DEATH_1-removebg-preview_22
+  - first:
+      213: -2921521897731429451
+    second: DEATH_1-removebg-preview_23
+  - first:
+      213: 4160253315043916445
+    second: DEATH_1-removebg-preview_24
+  - first:
+      213: 9023121549845520595
+    second: DEATH_1-removebg-preview_25
+  - first:
+      213: 7151859035369709689
+    second: DEATH_1-removebg-preview_26
+  - first:
+      213: -274392687742539951
+    second: DEATH_1-removebg-preview_27
+  - first:
+      213: -7272775627747642380
+    second: DEATH_1-removebg-preview_28
+  - first:
+      213: -1302589472786831274
+    second: DEATH_1-removebg-preview_29
+  - first:
+      213: -6878300716443499368
+    second: DEATH_1-removebg-preview_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c290e49bcdc7910800000000000000
+      internalID: 1836585436496604291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e02f86ff230e67d0800000000000000
+      internalID: -2923395603581951767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9ebe58ee449dcf0800000000000000
+      internalID: -227074514965763677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723e82e8c83b69430800000000000000
+      internalID: 3789413552740688679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aa213588cd69d30800000000000000
+      internalID: 4437976960887597666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEATH_1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9546940fab9433960800000000000000
+      internalID: 7580483665038763097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 48f7306c20dd02f4a836eca9f96c2a37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DEATH_1-removebg-preview_0: 1836585436496604291
+      DEATH_1-removebg-preview_1: -2923395603581951767
+      DEATH_1-removebg-preview_10: 4414845209838395203
+      DEATH_1-removebg-preview_11: 6459796130272425333
+      DEATH_1-removebg-preview_12: 4437976960887597666
+      DEATH_1-removebg-preview_13: -7794794613504480954
+      DEATH_1-removebg-preview_14: -5096616522900904412
+      DEATH_1-removebg-preview_15: 7580483665038763097
+      DEATH_1-removebg-preview_16: -8675122824461339872
+      DEATH_1-removebg-preview_17: 3451132976000953950
+      DEATH_1-removebg-preview_18: -3789926666055873555
+      DEATH_1-removebg-preview_19: -8411902273644388678
+      DEATH_1-removebg-preview_2: -227074514965763677
+      DEATH_1-removebg-preview_20: 2326383507027600216
+      DEATH_1-removebg-preview_21: 6570510358686594057
+      DEATH_1-removebg-preview_22: -6496047903230372494
+      DEATH_1-removebg-preview_23: -2921521897731429451
+      DEATH_1-removebg-preview_24: 4160253315043916445
+      DEATH_1-removebg-preview_25: 9023121549845520595
+      DEATH_1-removebg-preview_26: 7151859035369709689
+      DEATH_1-removebg-preview_27: -274392687742539951
+      DEATH_1-removebg-preview_28: -7272775627747642380
+      DEATH_1-removebg-preview_29: -1302589472786831274
+      DEATH_1-removebg-preview_3: 3789413552740688679
+      DEATH_1-removebg-preview_30: -6878300716443499368
+      DEATH_1-removebg-preview_4: -1190788902258333359
+      DEATH_1-removebg-preview_5: 8486628742457280003
+      DEATH_1-removebg-preview_6: 8005940569589352241
+      DEATH_1-removebg-preview_7: 5690393420908475705
+      DEATH_1-removebg-preview_8: -8513539176967199898
+      DEATH_1-removebg-preview_9: 4900704864334107053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

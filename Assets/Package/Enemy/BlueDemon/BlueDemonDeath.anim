@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnemyAttack
+  m_Name: BlueDemonDeath
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,21 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -252343562717082310, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: 1836585436496604291, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     - time: 0.1
-      value: {fileID: -210908623516531236, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: -2923395603581951767, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     - time: 0.2
-      value: {fileID: -1884070897103218386, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: -227074514965763677, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     - time: 0.3
-      value: {fileID: -5421470884539877244, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: 3789413552740688679, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     - time: 0.4
-      value: {fileID: -637045071952103482, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: 4437976960887597666, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     - time: 0.5
-      value: {fileID: -8222471432525534737, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - time: 0.6
-      value: {fileID: -5060464365741366859, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - time: 0.7
-      value: {fileID: 2732036489171911614, guid: 1d10d9ad718229f47946644180793820, type: 3}
+      value: {fileID: 7580483665038763097, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -58,20 +54,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -252343562717082310, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -210908623516531236, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -1884070897103218386, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -5421470884539877244, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -637045071952103482, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -8222471432525534737, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: -5060464365741366859, guid: 1d10d9ad718229f47946644180793820, type: 3}
-    - {fileID: 2732036489171911614, guid: 1d10d9ad718229f47946644180793820, type: 3}
+    - {fileID: 1836585436496604291, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
+    - {fileID: -2923395603581951767, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
+    - {fileID: -227074514965763677, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
+    - {fileID: 3789413552740688679, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
+    - {fileID: 4437976960887597666, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
+    - {fileID: 7580483665038763097, guid: 6659162e7f344484e997797c9391cf2f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 0.6
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,8 +85,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.7
-    functionName: EnemyStateToIdle
+  - time: 0.5
+    functionName: DestroyThis
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
