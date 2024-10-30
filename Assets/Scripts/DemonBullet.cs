@@ -3,11 +3,12 @@ using UnityEngine;
 public class DemonBullet : MonoBehaviour
 {
     public Vector2 Velocity;
+    public int statAttack =1;
     void Start()
     {
         if (!GetComponent<SpriteRenderer>().isVisible)
         {
-            //Destroy(gameObject);
+           //Destroy(gameObject);
         }
     }
     private void FixedUpdate()
@@ -16,6 +17,14 @@ public class DemonBullet : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Destroy(gameObject);
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("Moster Attack!");
+            collision.GetComponent<HpController>().GetDamage(statAttack);
+        }
+        if (!collision.CompareTag("Untagged")&&!collision.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 7195350205674929049}
   - component: {fileID: 3213521412916943433}
   - component: {fileID: 5530812138759265060}
+  - component: {fileID: 74249299197963735}
   - component: {fileID: 6565800736549594371}
   - component: {fileID: 6858209826602517114}
   - component: {fileID: 1535002371971555921}
   - component: {fileID: 8334837207049025818}
   m_Layer: 0
   m_Name: Demon
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,6 +108,20 @@ MonoBehaviour:
   enemyBullet: {fileID: 4496849784262339397, guid: 3bf3b5ab98a8cc240ba7705de1eaef65, type: 3}
   currentStateTime: 0
   attackDuration: 3
+  statAttack: 1
+--- !u!114 &74249299197963735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446963497711248026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae49b6c83a721c44ebf6ec7f12f056e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hp: 5
 --- !u!95 &6565800736549594371
 Animator:
   serializedVersion: 7

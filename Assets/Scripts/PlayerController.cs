@@ -22,6 +22,19 @@ public class PlayerController : MonoBehaviour
 
     //player animation
     Animator playerAnimator;
+    enum State
+    {
+        Idle,
+        Run,
+        Death,
+    }
+    State state;
+
+    //stat
+    public int playerAttackStat = 2;
+    int playerHp;
+
+
     void Start()
     {
         Cursor.visible = false; //마우스 커서 끔
@@ -57,13 +70,32 @@ public class PlayerController : MonoBehaviour
         if (moveVector.x > 0) transform.eulerAngles = new Vector3(0, 0, 0);
         else if (moveVector.x < 0) transform.eulerAngles = new Vector3(0, 180, 0);
 
-        if (Mathf.Abs(moveVector.x) > 0 || Mathf.Abs(moveVector.y) > 0)
+        switch (state)
         {
-            playerAnimator.SetTrigger("Run");
-        }
-        else
-        {
-            playerAnimator.SetTrigger("Idle");
+            case State.Idle:
+                playerHp = gameObject.GetComponent<HpController>().Hp;
+                if (Mathf.Abs(moveVector.x) > 0 || Mathf.Abs(moveVector.y) > 0)
+                {
+                    playerAnimator.SetTrigger("Run");
+                    state = State.Run;
+                }
+                else if (playerHp < 1)
+                {
+                    playerAnimator.SetTrigger("Death");
+                    state = State.Death;
+                }
+                break;
+
+            case State.Run:
+                if (Mathf.Abs(moveVector.x) == 0 && Mathf.Abs(moveVector.y) == 0)
+                {
+                    playerAnimator.SetTrigger("Idle");
+                    state = State.Idle;
+                }
+                break;
+
+            case State.Death:
+                return;
         }
     }
 

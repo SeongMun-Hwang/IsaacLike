@@ -3,6 +3,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public Vector2 Velocity;
+    int playerAttackStat = 2;
 
     void Update()
     {
@@ -17,10 +18,13 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("bullet trigger with : "+collision.gameObject.tag);
-        if (collision.CompareTag("Wall"))
+        if (collision.CompareTag("Enemy"))
         {
-            gameObject.GetComponent<Animator>().SetTrigger("Disable");
+            collision.GetComponent<HpController>().GetDamage(playerAttackStat);
+        }
+        if (!collision.CompareTag("Untagged")&&!collision.CompareTag("Player"))
+        {
+            DisableThis();
         }
     }
     public void DisableThis()

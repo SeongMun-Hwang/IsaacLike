@@ -11,10 +11,12 @@ public class EnemyController : MonoBehaviour
     public float currentStateTime;
     public float attackDuration = 3f;
 
+    public int statAttack = 5;
     enum State
     {
         Idle,
         Attack,
+        Death,
     }
     State state;
 
@@ -27,16 +29,30 @@ public class EnemyController : MonoBehaviour
         agent.updateUpAxis = false;
 
         currentStateTime = attackDuration;
+        state = State.Idle;
     }
     private void Update()
     {
-        agent.destination = GameObject.FindWithTag("Player").transform.position;
-
-        currentStateTime -= Time.deltaTime;
-        if (currentStateTime < 0 && enemyBullet != null)
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
         {
-            EnemyAttack();
+            agent.destination = player.transform.position;
         }
+        if (state != State.Death)
+        {
+            currentStateTime -= Time.deltaTime;
+            if (currentStateTime < 0 && enemyBullet != null)
+            {
+                EnemyAttack();
+            }
+            int hp = gameObject.GetComponent<HpController>().Hp;
+            if (hp < 1)
+            {
+                enemyAnimator.SetTrigger("Death");
+                state = State.Death;
+            }
+        }
+        return;
     }
     void EnemyAttack()
     {
@@ -55,5 +71,12 @@ public class EnemyController : MonoBehaviour
 
         agent.isStopped = false;
         enemyAnimator.SetTrigger("Idle");
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<HpController>().GetDamage(statAttack);
+        }
     }
 }
