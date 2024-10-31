@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PortalController : MonoBehaviour
 {
@@ -36,6 +37,13 @@ public class PortalController : MonoBehaviour
             {
                 enemies.Remove(enemies[i]);
             }
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player")&&Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }

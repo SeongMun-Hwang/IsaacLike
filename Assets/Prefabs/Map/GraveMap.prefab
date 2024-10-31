@@ -1,0 +1,1577 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3706190355819781266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8701049600394815817}
+  m_Layer: 0
+  m_Name: Props
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8701049600394815817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3706190355819781266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3635279325999223879}
+  - {fileID: 7301047399931460415}
+  - {fileID: 7779891262319230416}
+  - {fileID: 6948787065809156499}
+  - {fileID: 5461981882702881830}
+  - {fileID: 4665938004821585065}
+  - {fileID: 8980078164026214020}
+  - {fileID: 264758950613711235}
+  - {fileID: 6565425927417449982}
+  - {fileID: 6176156805445764055}
+  - {fileID: 6555789481300378551}
+  - {fileID: 5357808472068918507}
+  - {fileID: 1456787445740062811}
+  - {fileID: 900853349861581329}
+  - {fileID: 6450408787222048385}
+  - {fileID: 8496105318616592612}
+  - {fileID: 2371188405047826967}
+  - {fileID: 2174345189354955771}
+  - {fileID: 3415751572038068299}
+  - {fileID: 6071083150453407194}
+  - {fileID: 3921657110633413452}
+  - {fileID: 2913180690479726714}
+  - {fileID: 6115325870296923601}
+  - {fileID: 8482230576591660799}
+  m_Father: {fileID: 3564786163960248865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9185346022878080926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3564786163960248865}
+  m_Layer: 0
+  m_Name: GraveMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3564786163960248865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9185346022878080926}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8701049600394815817}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &191934906868483668
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &2174345189354955771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 191934906868483668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &626770954355600884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &1456787445740062811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 626770954355600884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1154410188997412798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &900853349861581329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 1154410188997412798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2245515516105940012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &264758950613711235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 2245515516105940012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3092203792536461027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &3921657110633413452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 3092203792536461027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3383940425129751016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &3635279325999223879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 3383940425129751016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3738585133641338340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &3415751572038068299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 3738585133641338340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3812440902352397781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &2913180690479726714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 3812440902352397781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4354162667776556984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &2371188405047826967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 4354162667776556984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4972330470149557038
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6450408787222048385 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 4972330470149557038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5080033332223731224
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6555789481300378551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 5080033332223731224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5158913722687383633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6565425927417449982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 5158913722687383633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5213814666102167678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6115325870296923601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 5213814666102167678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5243845141593217141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6071083150453407194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 5243845141593217141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5274609402698327672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6176156805445764055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 5274609402698327672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6259988918638160196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &5357808472068918507 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 6259988918638160196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6289817012318224777
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &5461981882702881830 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 6289817012318224777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6648875795191335174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &4665938004821585065 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 6648875795191335174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6925011380084302635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &8980078164026214020 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 6925011380084302635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7580648264920449872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &8482230576591660799 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 7580648264920449872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7596739622378591563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &8496105318616592612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 7596739622378591563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8607092781141448831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &7779891262319230416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 8607092781141448831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8779687515901927056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &7301047399931460415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 8779687515901927056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9001074627955530812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8701049600394815817}
+    m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_Name
+      value: PF Props Stone Coffin V (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!4 &6948787065809156499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+  m_PrefabInstance: {fileID: 9001074627955530812}
+  m_PrefabAsset: {fileID: 0}
