@@ -8,6 +8,10 @@ public class PortalController : MonoBehaviour
     public List<SpriteRenderer> renderers;
     public List<GameObject> enemies;
 
+    //Map
+    public GameObject currentMap;
+    public List<GameObject> maps;
+
     void Update()
     {
         CheckExistingEnemy();
@@ -43,7 +47,10 @@ public class PortalController : MonoBehaviour
     {
         if(collision.CompareTag("Player")&&Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene("SampleScene");
+            Destroy(currentMap);
+            int rand = Random.Range(0, 2);
+            GameObject go = Instantiate(maps[rand]);
+            currentMap = go;
         }
     }
 }
