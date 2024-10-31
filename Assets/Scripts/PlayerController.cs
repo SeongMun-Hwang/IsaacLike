@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false; //마우스 커서 끔
-
         inputActions = GetComponent<PlayerInput>().actions;
 
         characterRb = GetComponent<Rigidbody2D>();
