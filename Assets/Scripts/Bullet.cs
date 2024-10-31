@@ -14,7 +14,14 @@ public class Bullet : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        transform.Translate(Velocity * Time.deltaTime);
+        if (gameObject.GetComponent<CapsuleCollider2D>().enabled)
+        {
+            transform.Translate(Velocity * Time.deltaTime);
+        }
+    }
+    private void OnEnable()
+    {
+        gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,8 +29,9 @@ public class Bullet : MonoBehaviour
         {
             collision.GetComponent<HpController>().GetDamage(playerAttackStat);
         }
-        if (!collision.CompareTag("Untagged")&&!collision.CompareTag("Player"))
+        if (!collision.CompareTag("Untagged") && !collision.CompareTag("Player"))
         {
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
             gameObject.GetComponent<Animator>().SetTrigger("Disable");
         }
     }
