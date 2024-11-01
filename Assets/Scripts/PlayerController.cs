@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,8 +19,12 @@ public class PlayerController : MonoBehaviour
 
     public BulletPool bulletPool;
 
+    //attack
     public float attackDelay = 0.5f;
     bool canAttack = true;
+
+    //무적시간
+    public float invincibleTime = 0.5f;
 
     //player animation
     Animator playerAnimator;
@@ -33,6 +39,7 @@ public class PlayerController : MonoBehaviour
     //stat
     public int playerAttackStat = 2;
     int playerHp;
+    public List<GameObject> hpImages;
 
 
     void Start()
@@ -51,6 +58,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleAnimation();
         HandleAttack();
+        ShowHpRemain();
     }
     private void FixedUpdate()
     {
@@ -118,4 +126,33 @@ public class PlayerController : MonoBehaviour
     {
         canAttack = true;
     }
+    void ShowHpRemain()
+    {
+        if (hpImages.Count > playerHp)
+        {
+            hpImages[hpImages.Count - 1].SetActive(false);
+            hpImages.Remove(hpImages[hpImages.Count - 1]);
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+            StartCoroutine(PlayerInvincible());           
+        }
+    }
+    IEnumerator PlayerInvincible()
+    {
+        yield return new WaitForSeconds(invincibleTime);
+
+        SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        Color color = spriteRenderer.color;
+
+        for (float i = 0; i < invincibleTime; i += Time.deltaTime)
+        {
+            color.a = (color.a == 1f) ? 0f : 1f;
+            spriteRenderer.color = color;
+
+            yield return new WaitForSeconds(0.1f);
+        }
+        color.a = 1f;
+        spriteRenderer.color = color;
+        gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
+    }
+
 }
