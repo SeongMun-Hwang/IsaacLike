@@ -8,7 +8,7 @@ public class PortalController : MonoBehaviour
 {
     //Portal
     public List<SpriteRenderer> renderers;
-
+    bool portalActive = false;
     //Enemy
     public List<GameObject> enemyPrefabs; //복사할 몬스터 프레팹 리스트
     public List<GameObject> enemies; //복사한 몬스터 저장 리스트
@@ -22,19 +22,21 @@ public class PortalController : MonoBehaviour
     //stage
     public TextMeshProUGUI stageText;
     int stageRound = 0;
-    
+
     void Update()
     {
         CheckExistingEnemy();
-        if (enemies.Count==0)
+        if (enemies.Count == 0)
         {
             ControlAlpha(1f);
+            portalActive = true;
         }
         else
         {
             ControlAlpha(0f);
+            portalActive = false;
         }
-        stageText.text = stageRound+"";
+        stageText.text = "Stage" + stageRound;
     }
     void ControlAlpha(float alpha)
     {
@@ -47,7 +49,7 @@ public class PortalController : MonoBehaviour
     }
     void CheckExistingEnemy()
     {
-        for(int i=0;i<enemies.Count;i++)
+        for (int i = 0; i < enemies.Count; i++)
         {
             if (enemies[i] == null)
             {
@@ -57,15 +59,15 @@ public class PortalController : MonoBehaviour
     }
     private void SpawnMonster()
     {
-        int rand=Random.Range(minEnemy,maxEnemy);
-        int rand1=Random.Range(0,rand);
+        int rand = Random.Range(minEnemy, maxEnemy);
+        int rand1 = Random.Range(0, rand);
 
-        for(int i = 0; i < rand1; i++)
+        for (int i = 0; i < rand1; i++)
         {
             GameObject go = Instantiate(enemyPrefabs[0]);
             enemies.Add(go);
         }
-        for (int i = 0; i < rand-rand1; i++)
+        for (int i = 0; i < rand - rand1; i++)
         {
             GameObject go = Instantiate(enemyPrefabs[1]);
             enemies.Add(go);
@@ -73,8 +75,7 @@ public class PortalController : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log(collision.tag);
-        if(collision.CompareTag("Player")&&Input.GetKeyDown(KeyCode.Space))
+        if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.Space) && portalActive)
         {
             Destroy(currentMap);
             int rand = Random.Range(0, 2);

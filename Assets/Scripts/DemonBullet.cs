@@ -19,14 +19,8 @@ public class DemonBullet : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (collision.GetComponent<HpController>() == null)
-            {
-                collision.gameObject.GetComponentInParent<HpController>().GetDamage(statAttack);
-            }
-            else
-            {
-                collision.GetComponent<HpController>().GetDamage(statAttack);
-            }
+            collision.GetComponentInParent<HpController>().GetDamage(statAttack);
+            Destroy(gameObject);
         }
         if (!collision.CompareTag("Untagged") && !collision.CompareTag("Enemy"))
         {
