@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocity: {x: 10, y: 0}
-  statAttack: 10
+  statAttack: 5
 --- !u!70 &5460461196916411377
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

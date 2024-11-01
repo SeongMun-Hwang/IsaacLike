@@ -69,6 +69,7 @@ public class PortalController : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
+        Debug.Log(collision.tag);
         if(collision.CompareTag("Player")&&Input.GetKeyDown(KeyCode.Space))
         {
             Destroy(currentMap);

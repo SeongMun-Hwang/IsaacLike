@@ -79,8 +79,10 @@ public class EnemyController : MonoBehaviour
         agent.isStopped = false;
         enemyAnimator.SetTrigger("Idle");
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("enemy collison with : "+collision.gameObject.tag);
+
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<HpController>().GetDamage(statAttack);

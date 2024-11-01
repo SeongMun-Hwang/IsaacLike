@@ -1,178 +1,169 @@
 fileFormatVersion: 2
-guid: b38b30567d5e91e4b96ecf457b3cb940
+guid: 361072c5be991c8478fc39723df59f9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7751219071525288297
-    second: satiro-Sheet v1.1_0
+      213: 63782078696361801
+    second: Tx Props2_0
   - first:
-      213: -2809228643774045280
-    second: satiro-Sheet v1.1_1
+      213: -7319471635685209598
+    second: Tx Props2_1
   - first:
-      213: 5098452441359303606
-    second: satiro-Sheet v1.1_2
+      213: 6837778248638873083
+    second: Tx Props2_2
   - first:
-      213: -7858148026998855073
-    second: satiro-Sheet v1.1_3
+      213: -2987184549102734473
+    second: Tx Props2_3
   - first:
-      213: -5451656731380038960
-    second: satiro-Sheet v1.1_4
+      213: -2459717196267111235
+    second: Tx Props2_4
   - first:
-      213: -1092727325466002275
-    second: satiro-Sheet v1.1_5
+      213: -2300277826495291440
+    second: Tx Props2_5
   - first:
-      213: 2827251138833111162
-    second: satiro-Sheet v1.1_6
+      213: 3433155771451680238
+    second: Tx Props2_6
   - first:
-      213: -4244630165220924610
-    second: satiro-Sheet v1.1_7
+      213: 4129436290254452043
+    second: Tx Props2_7
   - first:
-      213: 7692902487014450953
-    second: satiro-Sheet v1.1_8
+      213: -3107762872902504104
+    second: Tx Props2_8
   - first:
-      213: 373959895375165562
-    second: satiro-Sheet v1.1_9
+      213: -2195283979351088717
+    second: Tx Props2_9
   - first:
-      213: -1908918943226329372
-    second: satiro-Sheet v1.1_10
+      213: 5035607846068438799
+    second: Tx Props2_10
   - first:
-      213: 1328237447766649780
-    second: satiro-Sheet v1.1_11
+      213: 2936887962149024278
+    second: Tx Props2_11
   - first:
-      213: -5720904932379876136
-    second: satiro-Sheet v1.1_12
+      213: 2079686709091859789
+    second: Tx Props2_12
   - first:
-      213: 3444854963725435246
-    second: satiro-Sheet v1.1_13
+      213: -5271297056419913642
+    second: Tx Props2_13
   - first:
-      213: -4816617863048114565
-    second: satiro-Sheet v1.1_14
+      213: -3537992219897637308
+    second: Tx Props2_14
   - first:
-      213: 2763688417475579659
-    second: satiro-Sheet v1.1_15
+      213: -5616414569231232984
+    second: Tx Props2_15
   - first:
-      213: -1214719636342988140
-    second: satiro-Sheet v1.1_16
+      213: 7416833152102257222
+    second: Tx Props2_16
   - first:
-      213: 914186538395792944
-    second: satiro-Sheet v1.1_17
+      213: -6686849140731652424
+    second: Tx Props2_17
   - first:
-      213: 137699103760701525
-    second: satiro-Sheet v1.1_18
+      213: -3649987469311360600
+    second: Tx Props2_18
   - first:
-      213: 8276014330734057266
-    second: satiro-Sheet v1.1_19
+      213: 2139577925417885452
+    second: Tx Props2_19
   - first:
-      213: -2197683407539005745
-    second: satiro-Sheet v1.1_20
+      213: -5890692024766207415
+    second: Tx Props2_20
   - first:
-      213: -3925375958757415530
-    second: satiro-Sheet v1.1_21
+      213: -8274047881168183391
+    second: Tx Props2_21
   - first:
-      213: -5671847545203432123
-    second: satiro-Sheet v1.1_22
+      213: -6606500295449741228
+    second: Tx Props2_22
   - first:
-      213: -7739548479223055607
-    second: satiro-Sheet v1.1_23
+      213: -7205043532880563673
+    second: Tx Props2_23
   - first:
-      213: -2690414675476776394
-    second: satiro-Sheet v1.1_24
+      213: -5173370757909346601
+    second: Tx Props2_24
   - first:
-      213: -4471406728318763338
-    second: satiro-Sheet v1.1_25
+      213: -3621519092914018401
+    second: Tx Props2_25
   - first:
-      213: 6494386108182975924
-    second: satiro-Sheet v1.1_26
+      213: 8801200715545172442
+    second: Tx Props2_26
   - first:
-      213: 2466900939361361404
-    second: satiro-Sheet v1.1_27
+      213: -4050368041017002879
+    second: Tx Props2_27
   - first:
-      213: -8692339599976076098
-    second: satiro-Sheet v1.1_28
+      213: 8571097906376139378
+    second: Tx Props2_28
   - first:
-      213: -7858886354126620006
-    second: satiro-Sheet v1.1_29
+      213: -4232504109843652780
+    second: Tx Props2_29
   - first:
-      213: -8884097237527819120
-    second: satiro-Sheet v1.1_30
+      213: -6127667702260656369
+    second: Tx Props2_30
   - first:
-      213: 2781800300522740575
-    second: satiro-Sheet v1.1_31
+      213: -4677794968692476944
+    second: Tx Props2_31
   - first:
-      213: 3791639993546102096
-    second: satiro-Sheet v1.1_32
+      213: 2086693526104979640
+    second: Tx Props2_32
   - first:
-      213: 4044788617937638984
-    second: satiro-Sheet v1.1_33
+      213: 5583673953717208154
+    second: Tx Props2_33
   - first:
-      213: -2379543994563418164
-    second: satiro-Sheet v1.1_34
+      213: -6982648292555036563
+    second: Tx Props2_34
   - first:
-      213: 41123774206982150
-    second: satiro-Sheet v1.1_35
+      213: 8750253620944293861
+    second: Tx Props2_35
   - first:
-      213: -4068763970874539475
-    second: satiro-Sheet v1.1_36
+      213: 7282992315902369164
+    second: Tx Props2_36
   - first:
-      213: -4153309117603532858
-    second: satiro-Sheet v1.1_37
+      213: 8708261086250727027
+    second: Tx Props2_37
   - first:
-      213: -508077316666523551
-    second: satiro-Sheet v1.1_38
+      213: -3314702953178518694
+    second: Tx Props2_38
   - first:
-      213: 7112863116879722814
-    second: satiro-Sheet v1.1_39
+      213: 5104664095672548085
+    second: Tx Props2_39
   - first:
-      213: 3929876922662428266
-    second: satiro-Sheet v1.1_40
+      213: 6094471954293394622
+    second: Tx Props2_40
   - first:
-      213: 5316822035179718802
-    second: satiro-Sheet v1.1_41
+      213: 3762984231009645901
+    second: Tx Props2_41
   - first:
-      213: -7139427159582180840
-    second: satiro-Sheet v1.1_42
+      213: -857531820077293772
+    second: Tx Props2_42
   - first:
-      213: 4545048574092280427
-    second: satiro-Sheet v1.1_43
+      213: 4041540343788056186
+    second: Tx Props2_43
   - first:
-      213: 6882372061013077628
-    second: satiro-Sheet v1.1_44
+      213: 7763561162864970466
+    second: Tx Props2_44
   - first:
-      213: 5368650406353356059
-    second: satiro-Sheet v1.1_45
+      213: 2803818703373491593
+    second: Tx Props2_45
   - first:
-      213: 5924820194454153032
-    second: satiro-Sheet v1.1_46
+      213: 8901135195514095289
+    second: Tx Props2_46
   - first:
-      213: 9161378483487194867
-    second: satiro-Sheet v1.1_47
+      213: 5601785983121119808
+    second: Tx Props2_47
   - first:
-      213: 8300765068421179809
-    second: satiro-Sheet v1.1_48
+      213: 1032675489857007215
+    second: Tx Props2_48
   - first:
-      213: 4164816203915251958
-    second: satiro-Sheet v1.1_49
+      213: 3205541059485829668
+    second: Tx Props2_49
   - first:
-      213: -2079180002640568385
-    second: satiro-Sheet v1.1_50
+      213: -7795635366546820070
+    second: Tx Props2_50
   - first:
-      213: 6363309222094875897
-    second: satiro-Sheet v1.1_51
+      213: -7243093339000443081
+    second: Tx Props2_51
   - first:
-      213: -3170127994971847490
-    second: satiro-Sheet v1.1_52
+      213: 8591887878275833881
+    second: Tx Props2_52
   - first:
-      213: 2765147747820285598
-    second: satiro-Sheet v1.1_53
-  - first:
-      213: -6013088047962509475
-    second: satiro-Sheet v1.1_54
-  - first:
-      213: -6494103715992501850
-    second: satiro-Sheet v1.1_55
-  - first:
-      213: 7647059380086944144
-    second: satiro-Sheet v1.1_56
+      213: 2936046867238529651
+    second: Tx Props2_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -219,7 +210,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -294,13 +285,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_0
+      name: Tx Props2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 229
-        width: 18
-        height: 19
+        x: 32
+        y: 448
+        width: 34
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 796808972532e6490800000000000000
-      internalID: -7751219071525288297
+      spriteID: 94f8bbf667992e000800000000000000
+      internalID: 63782078696361801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_1
+      name: Tx Props2_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 229
-        width: 18
-        height: 20
+        x: 96
+        y: 451
+        width: 34
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a3eef2be6d9309d0800000000000000
-      internalID: -2809228643774045280
+      spriteID: 20a8f6bd3530c6a90800000000000000
+      internalID: -7319471635685209598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_2
+      name: Tx Props2_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 229
-        width: 18
-        height: 20
+        x: 160
+        y: 448
+        width: 34
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,790 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b3c17f8b7751c640800000000000000
-      internalID: 5098452441359303606
+      spriteID: bfd330bc61ba4ee50800000000000000
+      internalID: 6837778248638873083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 229
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5aeb42f00042f290800000000000000
-      internalID: -7858148026998855073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_4
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 229
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d2c9b04613d754b0800000000000000
-      internalID: -5451656731380038960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 229
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9c7c39794ad5d0f0800000000000000
-      internalID: -1092727325466002275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_6
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 197
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7857fc6ee96c3720800000000000000
-      internalID: 2827251138833111162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_7
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 197
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e33691f8a5b0815c0800000000000000
-      internalID: -4244630165220924610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_8
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 198
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 907273e9d0ea2ca60800000000000000
-      internalID: 7692902487014450953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_9
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 197
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7834142b82903500800000000000000
-      internalID: 373959895375165562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_10
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 197
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e60bf3c5582285e0800000000000000
-      internalID: -1908918943226329372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_11
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 197
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bba083ebe8de6210800000000000000
-      internalID: 1328237447766649780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_12
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 198
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d4a7bf46434b90b0800000000000000
-      internalID: -5720904932379876136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_13
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 197
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e61889f76559ecf20800000000000000
-      internalID: 3444854963725435246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_14
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 165
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7e4736b29fe72db0800000000000000
-      internalID: -4816617863048114565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_15
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 165
-        width: 19
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0f4e7919f79a5620800000000000000
-      internalID: 2763688417475579659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_16
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 165
-        width: 19
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 492a5163de2742fe0800000000000000
-      internalID: -1214719636342988140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_17
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 165
-        width: 21
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 036768720d7dfac00800000000000000
-      internalID: 914186538395792944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_18
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 558db85fa9439e100800000000000000
-      internalID: 137699103760701525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_19
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23712738f2f4ad270800000000000000
-      internalID: 8276014330734057266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_20
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc61edca5924081e0800000000000000
-      internalID: -2197683407539005745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_21
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 695e760fc534689c0800000000000000
-      internalID: -3925375958757415530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_22
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5456af755bc8941b0800000000000000
-      internalID: -5671847545203432123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_23
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 135
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90bbefdf9a9979490800000000000000
-      internalID: -7739548479223055607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_24
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 104
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63a75b96b1ab9aad0800000000000000
-      internalID: -2690414675476776394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_25
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 104
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6beb448654f52f1c0800000000000000
-      internalID: -4471406728318763338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_26
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 104
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b55a74b1c1b02a50800000000000000
-      internalID: 6494386108182975924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_27
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 104
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cfd16ba85513c3220800000000000000
-      internalID: 2466900939361361404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_28
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 104
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebc6d54103b9e5780800000000000000
-      internalID: -8692339599976076098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_29
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 104
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9a3e14cf70afe290800000000000000
-      internalID: -7858886354126620006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_30
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 69
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09c0027e1a855b480800000000000000
-      internalID: -8884097237527819120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_31
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 69
-        width: 21
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5b9bbc72a0fa9620800000000000000
-      internalID: 2781800300522740575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_32
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 69
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 055da733c7c9e9430800000000000000
-      internalID: 3791639993546102096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_33
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 69
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84657bb51d9f12830800000000000000
-      internalID: 4044788617937638984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_34
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 69
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc722a428592afed0800000000000000
-      internalID: -2379543994563418164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_35
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 69
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6083e61dad9129000800000000000000
-      internalID: 41123774206982150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_39
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 69
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e39f799b157f5b260800000000000000
-      internalID: 7112863116879722814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_41
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 69
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2984bd4a87529c940800000000000000
-      internalID: 5316822035179718802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_42
+      name: Tx Props2_3
       rect:
         serializedVersion: 2
         x: 227
-        y: 69
-        width: 25
-        height: 19
+        y: 451
+        width: 28
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,20 +366,174 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81af35d13d8abec90800000000000000
-      internalID: -7139427159582180840
+      spriteID: 7733238ba736b86d0800000000000000
+      internalID: -2987184549102734473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_44
+      name: Tx Props2_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 478
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc349cfd345dddd0800000000000000
+      internalID: -2459717196267111235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 457
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df5a031185c310e0800000000000000
+      internalID: -2300277826495291440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 452
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a5f70cf405af20800000000000000
+      internalID: 3433155771451680238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 449
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4539336d64be4930800000000000000
+      internalID: 4129436290254452043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_8
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 419
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851bf7af1220fd4d0800000000000000
+      internalID: -3107762872902504104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 359
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b12ca51ad8c881e0800000000000000
+      internalID: -2195283979351088717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 387
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07441df7a212e540800000000000000
+      internalID: 5035607846068438799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_11
       rect:
         serializedVersion: 2
         x: 163
-        y: 69
-        width: 23
-        height: 20
+        y: 387
+        width: 28
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1167,19 +542,679 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7ee1c4dce8138f50800000000000000
-      internalID: 6882372061013077628
+      spriteID: 61273019a0ce1c820800000000000000
+      internalID: 2936887962149024278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_47
+      name: Tx Props2_12
       rect:
         serializedVersion: 2
-        x: 5
-        y: 37
-        width: 18
+        x: 227
+        y: 355
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d75831b088cdc10800000000000000
+      internalID: 2079686709091859789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 396
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6506786714798d6b0800000000000000
+      internalID: -5271297056419913642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446d7e232d686eec0800000000000000
+      internalID: -3537992219897637308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 389
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820d4a1d4bc7e02b0800000000000000
+      internalID: -5616414569231232984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 353
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642556da472ede660800000000000000
+      internalID: 7416833152102257222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 356
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6501c822a8333a0800000000000000
+      internalID: -6686849140731652424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 382
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1c1113cb3a85dc0800000000000000
+      internalID: -3649987469311360600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 375
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fdcc589ce41bd10800000000000000
+      internalID: 2139577925417885452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 368
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a659e40de004ea0800000000000000
+      internalID: -5890692024766207415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 361
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af95643a4dac2d80800000000000000
+      internalID: -8274047881168183391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_22
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 293
+        width: 11
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4587439ebfef054a0800000000000000
+      internalID: -6606500295449741228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 293
+        width: 11
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722bd6fa41b820c90800000000000000
+      internalID: -7205043532880563673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 320
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68b6394be7438b0800000000000000
+      internalID: -5173370757909346601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 323
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97a0979297cdbdc0800000000000000
+      internalID: -3621519092914018401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 291
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9dbf68b65242a70800000000000000
+      internalID: 8801200715545172442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 297
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1843699f9b33ac7c0800000000000000
+      internalID: -4050368041017002879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 261
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272e4ac5228a2f670800000000000000
+      internalID: 8571097906376139378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f5366dfef1345c0800000000000000
+      internalID: -4232504109843652780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 261
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f079e19c0b626faa0800000000000000
+      internalID: -6127667702260656369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 232
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3b9fe8242251fb0800000000000000
+      internalID: -4677794968692476944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 232
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8389ac4bc65fc10800000000000000
+      internalID: 2086693526104979640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_33
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 261
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a544ae890e13d7d40800000000000000
+      internalID: 5583673953717208154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_34
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68e4c2af56a81f90800000000000000
+      internalID: -6982648292555036563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 234
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efc5f2be452f6970800000000000000
+      internalID: 8750253620944293861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_36
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 234
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d9243ace2621560800000000000000
+      internalID: 7282992315902369164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_37
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 163
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376f451d155f9d870800000000000000
+      internalID: 8708261086250727027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 197
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b2bd3e93fcff1d0800000000000000
+      internalID: -3314702953178518694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 169
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab04803f867d640800000000000000
+      internalID: 5104664095672548085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc0d39d3f9e39450800000000000000
+      internalID: 6094471954293394622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 132
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45f9b0983ec83430800000000000000
+      internalID: 3762984231009645901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_42
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 127
+        width: 31
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1189,20 +1224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fe39211131c32f70800000000000000
-      internalID: 9161378483487194867
+      spriteID: 43fd2b06a5f6914f0800000000000000
+      internalID: -857531820077293772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_48
+      name: Tx Props2_43
       rect:
         serializedVersion: 2
-        x: 36
-        y: 37
-        width: 19
-        height: 20
+        x: 420
+        y: 104
+        width: 57
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1211,62 +1246,194 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a92733b9dd323370800000000000000
-      internalID: 8300765068421179809
+      spriteID: a7ea5e8978f661830800000000000000
+      internalID: 4041540343788056186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_49
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 37
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f0d82575466cc930800000000000000
-      internalID: 4164816203915251958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_50
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 37
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbf5386bdc44523e0800000000000000
-      internalID: -2079180002640568385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_51
+      name: Tx Props2_44
       rect:
         serializedVersion: 2
         x: 3
-        y: 5
+        y: 38
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eac5989eb5bdbb60800000000000000
+      internalID: 7763561162864970466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d5c25614a29e620800000000000000
+      internalID: 2803818703373491593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b64852dc4f278b70800000000000000
+      internalID: 8901135195514095289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_47
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a52bf0caa8dbd40800000000000000
+      internalID: 5601785983121119808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_48
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 6
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eed2df2ecc45e00800000000000000
+      internalID: 1032675489857007215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_49
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a05932c9e5c7c20800000000000000
+      internalID: 3205541059485829668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14318aefe650d390800000000000000
+      internalID: -7795635366546820070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f61e5dbfc5b7b90800000000000000
+      internalID: -7243093339000443081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tx Props2_52
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 8
         width: 21
         height: 18
       alignment: 0
@@ -1277,20 +1444,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fcaee2f5040f4850800000000000000
-      internalID: 6363309222094875897
+      spriteID: 910ad96e0848c3770800000000000000
+      internalID: 8591887878275833881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: satiro-Sheet v1.1_52
+      name: Tx Props2_53
       rect:
         serializedVersion: 2
-        x: 37
-        y: 5
-        width: 18
-        height: 19
+        x: 289
+        y: 7
+        width: 33
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1299,96 +1466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb48e2772617104d0800000000000000
-      internalID: -3170127994971847490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_53
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 5
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9eac4ce937cf5620800000000000000
-      internalID: 2765147747820285598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_54
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 5
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5f2c0277483d8ca0800000000000000
-      internalID: -6013088047962509475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_55
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 5
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a109b9d31f40e5a0800000000000000
-      internalID: -6494103715992501850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: satiro-Sheet v1.1_56
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 5
-        width: 25
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 091b6668dffcf1a60800000000000000
-      internalID: 7647059380086944144
+      spriteID: 37aa6a5e11feeb820800000000000000
+      internalID: 2936046867238529651
       vertices: []
       indices: 
       edges: []
@@ -1397,7 +1476,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 214ed304c6ef38d4ca6d39f03ebcbb66
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -1407,63 +1486,60 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      satiro-Sheet v1.1_0: -7751219071525288297
-      satiro-Sheet v1.1_1: -2809228643774045280
-      satiro-Sheet v1.1_10: -1908918943226329372
-      satiro-Sheet v1.1_11: 1328237447766649780
-      satiro-Sheet v1.1_12: -5720904932379876136
-      satiro-Sheet v1.1_13: 3444854963725435246
-      satiro-Sheet v1.1_14: -4816617863048114565
-      satiro-Sheet v1.1_15: 2763688417475579659
-      satiro-Sheet v1.1_16: -1214719636342988140
-      satiro-Sheet v1.1_17: 914186538395792944
-      satiro-Sheet v1.1_18: 137699103760701525
-      satiro-Sheet v1.1_19: 8276014330734057266
-      satiro-Sheet v1.1_2: 5098452441359303606
-      satiro-Sheet v1.1_20: -2197683407539005745
-      satiro-Sheet v1.1_21: -3925375958757415530
-      satiro-Sheet v1.1_22: -5671847545203432123
-      satiro-Sheet v1.1_23: -7739548479223055607
-      satiro-Sheet v1.1_24: -2690414675476776394
-      satiro-Sheet v1.1_25: -4471406728318763338
-      satiro-Sheet v1.1_26: 6494386108182975924
-      satiro-Sheet v1.1_27: 2466900939361361404
-      satiro-Sheet v1.1_28: -8692339599976076098
-      satiro-Sheet v1.1_29: -7858886354126620006
-      satiro-Sheet v1.1_3: -7858148026998855073
-      satiro-Sheet v1.1_30: -8884097237527819120
-      satiro-Sheet v1.1_31: 2781800300522740575
-      satiro-Sheet v1.1_32: 3791639993546102096
-      satiro-Sheet v1.1_33: 4044788617937638984
-      satiro-Sheet v1.1_34: -2379543994563418164
-      satiro-Sheet v1.1_35: 41123774206982150
-      satiro-Sheet v1.1_36: -4068763970874539475
-      satiro-Sheet v1.1_37: -4153309117603532858
-      satiro-Sheet v1.1_38: -508077316666523551
-      satiro-Sheet v1.1_39: 7112863116879722814
-      satiro-Sheet v1.1_4: -5451656731380038960
-      satiro-Sheet v1.1_40: 3929876922662428266
-      satiro-Sheet v1.1_41: 5316822035179718802
-      satiro-Sheet v1.1_42: -7139427159582180840
-      satiro-Sheet v1.1_43: 4545048574092280427
-      satiro-Sheet v1.1_44: 6882372061013077628
-      satiro-Sheet v1.1_45: 5368650406353356059
-      satiro-Sheet v1.1_46: 5924820194454153032
-      satiro-Sheet v1.1_47: 9161378483487194867
-      satiro-Sheet v1.1_48: 8300765068421179809
-      satiro-Sheet v1.1_49: 4164816203915251958
-      satiro-Sheet v1.1_5: -1092727325466002275
-      satiro-Sheet v1.1_50: -2079180002640568385
-      satiro-Sheet v1.1_51: 6363309222094875897
-      satiro-Sheet v1.1_52: -3170127994971847490
-      satiro-Sheet v1.1_53: 2765147747820285598
-      satiro-Sheet v1.1_54: -6013088047962509475
-      satiro-Sheet v1.1_55: -6494103715992501850
-      satiro-Sheet v1.1_56: 7647059380086944144
-      satiro-Sheet v1.1_6: 2827251138833111162
-      satiro-Sheet v1.1_7: -4244630165220924610
-      satiro-Sheet v1.1_8: 7692902487014450953
-      satiro-Sheet v1.1_9: 373959895375165562
+      Tx Props2_0: 63782078696361801
+      Tx Props2_1: -7319471635685209598
+      Tx Props2_10: 5035607846068438799
+      Tx Props2_11: 2936887962149024278
+      Tx Props2_12: 2079686709091859789
+      Tx Props2_13: -5271297056419913642
+      Tx Props2_14: -3537992219897637308
+      Tx Props2_15: -5616414569231232984
+      Tx Props2_16: 7416833152102257222
+      Tx Props2_17: -6686849140731652424
+      Tx Props2_18: -3649987469311360600
+      Tx Props2_19: 2139577925417885452
+      Tx Props2_2: 6837778248638873083
+      Tx Props2_20: -5890692024766207415
+      Tx Props2_21: -8274047881168183391
+      Tx Props2_22: -6606500295449741228
+      Tx Props2_23: -7205043532880563673
+      Tx Props2_24: -5173370757909346601
+      Tx Props2_25: -3621519092914018401
+      Tx Props2_26: 8801200715545172442
+      Tx Props2_27: -4050368041017002879
+      Tx Props2_28: 8571097906376139378
+      Tx Props2_29: -4232504109843652780
+      Tx Props2_3: -2987184549102734473
+      Tx Props2_30: -6127667702260656369
+      Tx Props2_31: -4677794968692476944
+      Tx Props2_32: 2086693526104979640
+      Tx Props2_33: 5583673953717208154
+      Tx Props2_34: -6982648292555036563
+      Tx Props2_35: 8750253620944293861
+      Tx Props2_36: 7282992315902369164
+      Tx Props2_37: 8708261086250727027
+      Tx Props2_38: -3314702953178518694
+      Tx Props2_39: 5104664095672548085
+      Tx Props2_4: -2459717196267111235
+      Tx Props2_40: 6094471954293394622
+      Tx Props2_41: 3762984231009645901
+      Tx Props2_42: -857531820077293772
+      Tx Props2_43: 4041540343788056186
+      Tx Props2_44: 7763561162864970466
+      Tx Props2_45: 2803818703373491593
+      Tx Props2_46: 8901135195514095289
+      Tx Props2_47: 5601785983121119808
+      Tx Props2_48: 1032675489857007215
+      Tx Props2_49: 3205541059485829668
+      Tx Props2_5: -2300277826495291440
+      Tx Props2_50: -7795635366546820070
+      Tx Props2_51: -7243093339000443081
+      Tx Props2_52: 8591887878275833881
+      Tx Props2_53: 2936046867238529651
+      Tx Props2_6: 3433155771451680238
+      Tx Props2_7: 4129436290254452043
+      Tx Props2_8: -3107762872902504104
+      Tx Props2_9: -2195283979351088717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
