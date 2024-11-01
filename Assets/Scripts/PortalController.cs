@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +19,9 @@ public class PortalController : MonoBehaviour
     public GameObject currentMap;
     public List<GameObject> maps;
 
-
+    //stage
+    public TextMeshProUGUI stageText;
+    int stageRound = 0;
     
     void Update()
     {
@@ -31,6 +34,7 @@ public class PortalController : MonoBehaviour
         {
             ControlAlpha(0f);
         }
+        stageText.text = stageRound+"";
     }
     void ControlAlpha(float alpha)
     {
@@ -76,6 +80,7 @@ public class PortalController : MonoBehaviour
             int rand = Random.Range(0, 2);
             GameObject go = Instantiate(maps[rand]);
             currentMap = go;
+            stageRound++;
             SpawnMonster();
         }
     }
