@@ -16,6 +16,10 @@ public class GameManager : MonoBehaviour
     public GameObject Player;
     public GameObject gameOverCanvas;
 
+    private void Start()
+    {
+        Screen.SetResolution(1920, 1080, false);
+    }
     private void Update()
     {
         playTime += Time.deltaTime;
@@ -23,7 +27,6 @@ public class GameManager : MonoBehaviour
 
         if (Player == null)
         {
-            Time.timeScale = 0;
             gameOverCanvas.SetActive(true);
         }
     }

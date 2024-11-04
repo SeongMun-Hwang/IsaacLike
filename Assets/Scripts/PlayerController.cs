@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float invincibleTime = 0.5f;
     public bool isInvincible = false;
     public Collider2D hitCollider;
+    public Collider2D hitTriggerCollider;
 
     //player animation
     Animator playerAnimator;
@@ -140,6 +141,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator PlayerInvincible()
     {
         hitCollider.enabled = false;
+        hitTriggerCollider.enabled = false;
         isInvincible = true;
 
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
@@ -155,6 +157,7 @@ public class PlayerController : MonoBehaviour
         color.a = 1f;
         spriteRenderer.color = color;
         hitCollider.enabled = true;
+        hitTriggerCollider.enabled = true;
         isInvincible=false;
     }
 }

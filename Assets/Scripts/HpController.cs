@@ -9,7 +9,6 @@ public class HpController : MonoBehaviour
     }
     public void DestroyThis()
     {
-        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
         Destroy(gameObject);
     }
 }

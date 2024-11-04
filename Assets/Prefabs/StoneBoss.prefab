@@ -592,6 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserRotationPoint: {fileID: 6339742077810891307}
+  rotationSpeed: 90
 --- !u!212 &1035591980144950550
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -41,7 +41,7 @@ public class StoneGolemController : MonoBehaviour
         float distance = 0f;
         if (player != null)
         {
-            //agent.destination = player.transform.position;
+            agent.destination = player.transform.position;
             distance = (player.transform.position - gameObject.transform.position).magnitude;
         }
         switch (state)
@@ -52,7 +52,6 @@ public class StoneGolemController : MonoBehaviour
                 if (currentTime < 0)
                 {
                     int rand = Random.Range(0, 2);
-                    rand= 1;
                     if (rand == 0)
                     {
                         IdleToShoot();

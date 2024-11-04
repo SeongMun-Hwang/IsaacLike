@@ -27,6 +27,10 @@ public class PortalController : MonoBehaviour
     //Boss
     public GameObject bossPrefab;
     public GameObject bossStage;
+    bool isBossStage = false;
+
+    //Canvas
+    public GameObject victoryCanvas;
 
     void Update()
     {
@@ -42,15 +46,17 @@ public class PortalController : MonoBehaviour
             portalActive = false;
         }
         stageText.text = "Stage" + stageRound;
+
         if (Input.GetKeyDown(KeyCode.Space) && portalActive && playerOnPortal)
         {
-            if (stageRound == 4)
+            if (stageRound % 4 == 0 && stageRound != 0)
             {
                 MoveToBossStage();
             }
-            else {
+            else
+            {
                 MoveStage();
-            }            
+            }
         }
     }
     void ControlAlpha(float alpha)
@@ -103,7 +109,8 @@ public class PortalController : MonoBehaviour
         Destroy(currentMap);
         GameObject go = Instantiate(bossStage);
         currentMap = go;
-        Instantiate(bossPrefab, new Vector3(0, 5, 0),bossPrefab.transform.rotation);
+        GameObject boss = Instantiate(bossPrefab, new Vector3(0, 5, 0), bossPrefab.transform.rotation);
+        enemies.Add(boss);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -115,7 +122,8 @@ public class PortalController : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")){
+        if (collision.gameObject.CompareTag("Player"))
+        {
             playerOnPortal = false;
         }
     }
