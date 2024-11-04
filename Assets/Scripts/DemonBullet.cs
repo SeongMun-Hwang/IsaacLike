@@ -17,12 +17,16 @@ public class DemonBullet : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.CompareTag("Player"))
         {
             collision.GetComponentInParent<HpController>().GetDamage(statAttack);
-            Destroy(gameObject);
+            if (!gameObject.CompareTag("Laser"))
+            {
+                Destroy(gameObject);
+            }
         }
-        if (!collision.CompareTag("Untagged") && !collision.CompareTag("Enemy"))
+        if (!collision.CompareTag("Untagged") && !collision.CompareTag("Enemy") && !gameObject.CompareTag("Laser"))
         {
             Destroy(gameObject);
         }

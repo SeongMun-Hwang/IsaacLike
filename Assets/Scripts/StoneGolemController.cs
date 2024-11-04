@@ -12,7 +12,8 @@ public class StoneGolemController : MonoBehaviour
     public float currentTime;
 
     Animator stoneBossAnimator;
-    public Animator LaserAnimator;
+    public GameObject LaserAnimator;
+
     enum State
     {
         Idle,
@@ -29,7 +30,7 @@ public class StoneGolemController : MonoBehaviour
         agent.updateUpAxis = false;
         stoneBossAnimator = GetComponent<Animator>();
         state = State.Idle;
-        gameObject.transform.position = new Vector3(0, 5, 0);
+        //gameObject.transform.position = new Vector3(0, 5, 0);
         currentTime = attackDuration;
     }
     void Update()
@@ -96,16 +97,17 @@ public class StoneGolemController : MonoBehaviour
     public void IdleToLaser()
     {
         agent.isStopped = true;
-        Debug.Log("Laser Cast");
         stoneBossAnimator.SetTrigger("Laser");
         state = State.Laser;
     }
     public void ShootLaser()
     {
-        Debug.Log("Shoot Laser");
-        LaserAnimator.SetTrigger("Laser");
+        LaserAnimator.SetActive(true);
+        LaserAnimator.GetComponent<Animator>().SetTrigger("Laser");
+        stoneBossAnimator.SetTrigger("Idle");
         state = State.Idle;
     }
+    
     public void Death()
     {
         if (gameObject.GetComponent<HpController>().Hp < 1)
