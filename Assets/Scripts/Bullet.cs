@@ -27,7 +27,15 @@ public class Bullet : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            collision.GetComponent<HpController>().GetDamage(playerAttackStat);
+            if (collision.GetComponent<HpController>() == null)
+            {
+                collision.GetComponentInParent<HpController>();
+            }
+            else
+            {
+                collision.GetComponent<HpController>().GetDamage(playerAttackStat);
+            }
+            gameObject.GetComponent<Animator>().SetTrigger("Disable");
         }
         if (!collision.CompareTag("Untagged") && !collision.CompareTag("Player"))
         {

@@ -93,14 +93,12 @@ public class PortalController : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerOnPortal = true;
-            Debug.Log("Player enter");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player")){
             playerOnPortal = false;
-            Debug.Log("Player Exit");
         }
     }
 }
