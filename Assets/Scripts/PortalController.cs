@@ -8,7 +8,7 @@ public class PortalController : MonoBehaviour
 {
     //Portal
     public List<SpriteRenderer> renderers;
-    bool portalActive = false;
+    public bool portalActive = true;
     //Enemy
     public List<GameObject> enemyPrefabs; //복사할 몬스터 프레팹 리스트
     public List<GameObject> enemies; //복사한 몬스터 저장 리스트
@@ -37,6 +37,10 @@ public class PortalController : MonoBehaviour
             portalActive = false;
         }
         stageText.text = "Stage" + stageRound;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Space input");
+        }
     }
     void ControlAlpha(float alpha)
     {
@@ -75,14 +79,18 @@ public class PortalController : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.Space) && portalActive)
+        if (collision.CompareTag("Player") && portalActive)
         {
-            Destroy(currentMap);
-            int rand = Random.Range(0, 2);
-            GameObject go = Instantiate(maps[rand]);
-            currentMap = go;
-            stageRound++;
-            SpawnMonster();
+            Debug.Log("Player on portal");
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Destroy(currentMap);
+                int rand = Random.Range(0, 2);
+                GameObject go = Instantiate(maps[rand]);
+                currentMap = go;
+                stageRound++;
+                SpawnMonster();
+            }
         }
     }
 }
