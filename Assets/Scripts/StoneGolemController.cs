@@ -12,7 +12,7 @@ public class StoneGolemController : MonoBehaviour
     public float currentTime;
 
     Animator stoneBossAnimator;
-
+    public Animator LaserAnimator;
     enum State
     {
         Idle,
@@ -55,7 +55,7 @@ public class StoneGolemController : MonoBehaviour
                     }
                     else if (rand == 1)
                     {
-
+                        IdleToLaser();
                     }
                     currentTime = attackDuration;
                 }
@@ -63,6 +63,10 @@ public class StoneGolemController : MonoBehaviour
                 break;
             case State.Shoot:
                 Death();
+                break;
+
+            case State.Laser:
+                ShootLaser();
                 break;
 
             case State.Death:
@@ -87,6 +91,19 @@ public class StoneGolemController : MonoBehaviour
 
         agent.isStopped = false;
         stoneBossAnimator.SetTrigger("Idle");
+        state = State.Idle;
+    }
+    public void IdleToLaser()
+    {
+        agent.isStopped = true;
+        Debug.Log("Laser Cast");
+        stoneBossAnimator.SetTrigger("Laser");
+        state = State.Laser;
+    }
+    public void ShootLaser()
+    {
+        Debug.Log("Shoot Laser");
+        LaserAnimator.SetTrigger("Laser");
         state = State.Idle;
     }
     public void Death()
