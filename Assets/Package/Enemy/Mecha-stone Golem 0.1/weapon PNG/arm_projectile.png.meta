@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ff0621b6c60f27c47a0a82b79e32e4ea
+guid: 22bac5b238e3feb44b658a89d17a89ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -608112088230385668
-    second: TX Tileset Stone Ground_0
+      213: 6636585613346608120
+    second: arm_projectile_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Tileset Stone Ground_0
+      name: arm_projectile_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 59
+        y: 55
+        width: 37
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf72865174d8f87f0800000000000000
-      internalID: -608112088230385668
+      spriteID: 8f31ef40473e91c50800000000000000
+      internalID: 6636585613346608120
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      TX Tileset Stone Ground_0: -608112088230385668
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
