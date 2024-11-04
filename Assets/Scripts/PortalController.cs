@@ -24,6 +24,10 @@ public class PortalController : MonoBehaviour
     public TextMeshProUGUI stageText;
     int stageRound = 0;
 
+    //Boss
+    public GameObject bossPrefab;
+    public GameObject bossStage;
+
     void Update()
     {
         CheckExistingEnemy();
@@ -40,7 +44,13 @@ public class PortalController : MonoBehaviour
         stageText.text = "Stage" + stageRound;
         if (Input.GetKeyDown(KeyCode.Space) && portalActive && playerOnPortal)
         {
-            MoveStage();
+            if (stageRound == 4)
+            {
+                MoveToBossStage();
+            }
+            else {
+                MoveStage();
+            }            
         }
     }
     void ControlAlpha(float alpha)
@@ -62,6 +72,15 @@ public class PortalController : MonoBehaviour
             }
         }
     }
+    private void MoveStage()
+    {
+        Destroy(currentMap);
+        int rand = Random.Range(0, maps.Count);
+        GameObject go = Instantiate(maps[rand]);
+        currentMap = go;
+        stageRound++;
+        SpawnMonster();
+    }
     private void SpawnMonster()
     {
         int rand = Random.Range(minEnemy, maxEnemy);
@@ -79,15 +98,14 @@ public class PortalController : MonoBehaviour
             enemies.Add(go);
         }
     }
-    private void MoveStage()
+    private void MoveToBossStage()
     {
         Destroy(currentMap);
-        int rand = Random.Range(0, maps.Count);
-        GameObject go = Instantiate(maps[rand]);
+        GameObject go = Instantiate(bossStage);
         currentMap = go;
-        stageRound++;
-        SpawnMonster();
+        Instantiate(bossPrefab, new Vector3(0, 5, 0),bossPrefab.transform.rotation);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))

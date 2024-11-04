@@ -1983,12 +1983,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 163598015995439710, guid: 1eb43eec09dd1f0458bc5cfdcf256978, type: 3}
+      propertyPath: rotationSpeed
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 4444764322060795103, guid: 1eb43eec09dd1f0458bc5cfdcf256978, type: 3}
       propertyPath: m_Name
       value: StoneBoss
       objectReference: {fileID: 0}
-    - target: {fileID: 7527700493694145023, guid: 1eb43eec09dd1f0458bc5cfdcf256978, type: 3}
-      propertyPath: m_Direction
+    - target: {fileID: 6547660517623633535, guid: 1eb43eec09dd1f0458bc5cfdcf256978, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8361287167402254131, guid: 1eb43eec09dd1f0458bc5cfdcf256978, type: 3}

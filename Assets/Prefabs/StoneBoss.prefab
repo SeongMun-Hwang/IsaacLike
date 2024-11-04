@@ -278,7 +278,7 @@ Transform:
   - {fileID: 8699620140049016101}
   - {fileID: 3807544998315975427}
   - {fileID: 7400271655810506758}
-  - {fileID: 9170156357632136216}
+  - {fileID: 4350195714880932248}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4369426613627253909
@@ -352,6 +352,7 @@ MonoBehaviour:
   stoneBullet: {fileID: 1545514438745392226, guid: cb9042fb630a59e47a6e5cfaaa99cf1d, type: 3}
   attackDuration: 5
   currentTime: 0
+  statAttack: 2
   LaserAnimator: {fileID: 6547660517623633535}
 --- !u!114 &8001880849627607572
 MonoBehaviour:
@@ -474,6 +475,38 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0012866579, y: -0.19940533}
   m_Size: {x: 0.19900277, y: 0.059521146}
   m_Direction: 1
+--- !u!1 &6339742077810891307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4350195714880932248}
+  m_Layer: 0
+  m_Name: LaserRotatePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4350195714880932248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6339742077810891307}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.034, y: 0.141, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9170156357632136216}
+  m_Father: {fileID: 8361287167402254131}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6547660517623633535
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,11 +537,11 @@ Transform:
   m_GameObject: {fileID: 6547660517623633535}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.034, y: 0.141, z: -0.46322072}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1.5}
+  m_LocalPosition: {x: 0.008, y: 0.004, z: -0.46322075}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1.5000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8361287167402254131}
+  m_Father: {fileID: 4350195714880932248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5456032209598114468
 Animator:
@@ -558,6 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218c597941562874384a0e5a77cfb4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserRotationPoint: {fileID: 6339742077810891307}
 --- !u!212 &1035591980144950550
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -620,7 +654,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6547660517623633535}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
