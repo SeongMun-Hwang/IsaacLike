@@ -88,8 +88,8 @@ public class StoneGolemController : MonoBehaviour
     {
         Debug.Log("stone shoot");
         GameObject go = Instantiate(stoneBullet);
-
-        float angle = Mathf.Atan2(agent.destination.y, agent.destination.x) * Mathf.Rad2Deg;
+        Vector3 direction = agent.destination - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         go.transform.rotation = Quaternion.Euler(0, 0, angle);
         go.transform.position = shootPostion.position;

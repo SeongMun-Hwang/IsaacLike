@@ -94,7 +94,7 @@ public class PortalController : MonoBehaviour
     {
         int rand = Random.Range(minEnemy, maxEnemy);
         int rand1 = Random.Range(0, rand);
-        Vector3 instantiatePosition = gameObject.transform.position + new Vector3(0, 5, 0);
+        Vector3 instantiatePosition = gameObject.transform.position + new Vector3(0, 7.5f, 0);
 
         for (int i = 0; i < rand1; i++)
         {

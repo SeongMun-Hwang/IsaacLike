@@ -350,7 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootPostion: {fileID: 7400271655810506758}
   stoneBullet: {fileID: 1545514438745392226, guid: cb9042fb630a59e47a6e5cfaaa99cf1d, type: 3}
-  attackDuration: 5
+  attackDuration: 3
   currentTime: 0
   statAttack: 2
   moveSpeed: 2
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae49b6c83a721c44ebf6ec7f12f056e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hp: 50
+  Hp: 60
 --- !u!95 &8299135489933735557
 Animator:
   serializedVersion: 7
@@ -409,7 +409,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1.52
-  m_BaseOffset: 0.76
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!50 &4541733308168026007

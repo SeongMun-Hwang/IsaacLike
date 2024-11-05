@@ -32,9 +32,10 @@ public class EnemyController : MonoBehaviour
         currentStateTime = attackDuration;
         state = State.Idle;
     }
+
     private void Update()
     {
-        GameObject player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("Player");
         float distance = 0f;
         if (player != null)
         {
@@ -70,10 +71,10 @@ public class EnemyController : MonoBehaviour
 
     public void EnemyStateToIdle()
     {
-        GameObject bullet = Instantiate(enemyBullet, transform);
-        bullet.transform.position = transform.position;
+        GameObject bullet = Instantiate(enemyBullet, gameObject.transform);
+        Vector3 direction = agent.destination - transform.position;
 
-        float angle = Mathf.Atan2(agent.destination.y, agent.destination.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
 
         agent.isStopped = false;

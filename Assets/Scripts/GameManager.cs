@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class GameManager : MonoBehaviour
     public GameObject Player;
     public GameObject gameOverCanvas;
 
+    //restart
+    float holdTime = 0f;
+    float needHolTime = 2.0f;
+    bool resetKeyHold = false;
+
     private void Start()
     {
         Screen.SetResolution(1920, 1080, false);
@@ -28,6 +34,19 @@ public class GameManager : MonoBehaviour
         if (Player == null)
         {
             gameOverCanvas.SetActive(true);
+        }
+
+        if (Input.GetKey(KeyCode.R))
+        {
+            holdTime += Time.deltaTime;
+            if (holdTime >= needHolTime)
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
+        }
+        else
+        {
+            holdTime = 0f;
         }
     }
 }

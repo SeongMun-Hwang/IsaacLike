@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
 
     //무적시간
     public float invincibleTime = 0.5f;
-    public bool isInvincible = false;
     public Collider2D hitCollider;
     public Collider2D hitTriggerCollider;
 
@@ -135,14 +134,12 @@ public class PlayerController : MonoBehaviour
         {
             hpImages[hpImages.Count - 1].SetActive(false);
             hpImages.Remove(hpImages[hpImages.Count - 1]);
-            StartCoroutine(PlayerInvincible());
         }
     }
     public IEnumerator PlayerInvincible()
     {
         hitCollider.enabled = false;
         hitTriggerCollider.enabled = false;
-        isInvincible = true;
 
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         Color color = spriteRenderer.color;
@@ -158,6 +155,5 @@ public class PlayerController : MonoBehaviour
         spriteRenderer.color = color;
         hitCollider.enabled = true;
         hitTriggerCollider.enabled = true;
-        isInvincible=false;
     }
 }
