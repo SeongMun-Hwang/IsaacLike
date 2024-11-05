@@ -492,6 +492,8 @@ MonoBehaviour:
   - {fileID: 6868958710751573116}
   - {fileID: 2128395779313173791}
   - {fileID: 6561595528804509140}
+  portalActive: 1
+  playerOnPortal: 0
   enemyPrefabs:
   - {fileID: 3446963497711248026, guid: d6694e5c6f109a14691a6e2c79bf2d74, type: 3}
   - {fileID: 3446963497711248026, guid: 5bea5dea161df5a44867da4458fd4fb2, type: 3}
@@ -501,6 +503,9 @@ MonoBehaviour:
   - {fileID: 9185346022878080926, guid: 74b1b7b098222fb4fbd5afba70b6100d, type: 3}
   - {fileID: 9163124985310099407, guid: 3943c79ed57c2de489e282fd1d82a016, type: 3}
   stageText: {fileID: 0}
+  bossPrefab: {fileID: 0}
+  bossStage: {fileID: 0}
+  victoryCanvas: {fileID: 0}
 --- !u!70 &7363783137747775239
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

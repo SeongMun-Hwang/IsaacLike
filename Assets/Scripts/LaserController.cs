@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class LaserController : MonoBehaviour
 {
     Animator laserAnimator;
     GameObject player;
     public GameObject laserRotationPoint;
+    public NavMeshAgent stoneGolemAgent;
 
     public float rotationSpeed = 360f;
     private float rotationTime = 0f;
@@ -41,6 +43,7 @@ public class LaserController : MonoBehaviour
     public void EndLaser()
     {
         laserAnimator.GetComponent<Animator>().SetTrigger("Idle");
+        stoneGolemAgent.isStopped = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         gameObject.SetActive(false);
     }

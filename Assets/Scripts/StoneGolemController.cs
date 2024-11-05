@@ -12,6 +12,7 @@ public class StoneGolemController : MonoBehaviour
     public float currentTime;
 
     public int statAttack = 2;
+    public float moveSpeed = 2f;
 
     Animator stoneBossAnimator;
     public GameObject LaserAnimator;
@@ -30,6 +31,7 @@ public class StoneGolemController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        agent.speed = moveSpeed;
         stoneBossAnimator = GetComponent<Animator>();
         state = State.Idle;
         gameObject.transform.position = new Vector3(0, 5, 0);

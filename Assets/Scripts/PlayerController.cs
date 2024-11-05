@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(PlayerInvincible());
         }
     }
-    IEnumerator PlayerInvincible()
+    public IEnumerator PlayerInvincible()
     {
         hitCollider.enabled = false;
         hitTriggerCollider.enabled = false;

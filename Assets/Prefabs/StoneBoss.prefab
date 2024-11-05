@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 728514552185209411}
   m_Layer: 0
   m_Name: RightArm
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,8 +66,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.17145677, y: 0.4796998}
-  m_Size: {x: 0.09250155, y: 0.25849268}
+  m_Offset: {x: 0.1888192, y: -0.03048722}
+  m_Size: {x: 0.084488176, y: 0.27452242}
   m_Direction: 0
 --- !u!1 &2161568278875926050
 GameObject:
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 1301852351560783809}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,8 +166,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.009090758, y: 0.53742206}
-  m_Size: {x: 0.15454376, y: 0.4454548}
+  m_Offset: {x: -0.009090758, y: 0.0031952225}
+  m_Size: {x: 0.15454376, y: 0.44545883}
   m_Direction: 0
 --- !u!1 &4231495907977301220
 GameObject:
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4783112890944345553}
   m_Layer: 0
   m_Name: LeftArm
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,8 +235,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.19068976, y: 0.47124273}
-  m_Size: {x: 0.090964325, y: 0.2739595}
+  m_Offset: {x: -0.1853475, y: -0.044286825}
+  m_Size: {x: 0.0802798, y: 0.27930444}
   m_Direction: 0
 --- !u!1 &4444764322060795103
 GameObject:
@@ -353,6 +353,7 @@ MonoBehaviour:
   attackDuration: 5
   currentTime: 0
   statAttack: 2
+  moveSpeed: 2
   LaserAnimator: {fileID: 6547660517623633535}
 --- !u!114 &8001880849627607572
 MonoBehaviour:
@@ -366,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae49b6c83a721c44ebf6ec7f12f056e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hp: 10
+  Hp: 50
 --- !u!95 &8299135489933735557
 Animator:
   serializedVersion: 7
@@ -592,6 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserRotationPoint: {fileID: 6339742077810891307}
+  stoneGolemAgent: {fileID: 4507783820635498122}
   rotationSpeed: 90
 --- !u!212 &1035591980144950550
 SpriteRenderer:
@@ -616,7 +618,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

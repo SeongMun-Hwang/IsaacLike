@@ -6,6 +6,10 @@ public class HpController : MonoBehaviour
     public void GetDamage(int damage)
     {
         Hp -= damage;
+        if (gameObject.tag == "Player")
+        {
+            StartCoroutine(gameObject.GetComponent<PlayerController>().PlayerInvincible());
+        }
     }
     public void DestroyThis()
     {

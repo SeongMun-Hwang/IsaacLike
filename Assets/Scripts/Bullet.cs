@@ -29,7 +29,10 @@ public class Bullet : MonoBehaviour
         {
             if (collision.GetComponent<HpController>() == null)
             {
-                collision.GetComponentInParent<HpController>();
+                if (collision.GetComponentInParent<HpController>() != null)
+                {
+                    collision.GetComponentInParent<HpController>().GetDamage(playerAttackStat);
+                }
             }
             else
             {
